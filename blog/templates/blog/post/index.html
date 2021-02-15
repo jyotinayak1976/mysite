@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" href="{% url 'blog:post_list' %}">Home</a>
           </li>
           <!--
           <li class="nav-item">
@@ -48,7 +48,7 @@
           </li>
         -->
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="{% url 'blog:contactView' %}">Contact</a>
           </li>
         </ul>
       </div>
