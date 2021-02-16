@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'bev%q!*b=le#r)#f*+-w45j-v7c12g
 DEBUG = False
 #DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['desolate-island-81412.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['desolate-island-81412.herokuapp.com','127.0.0.1','www.jyotiranjannayak.blog']
 
 
 # Application definition
